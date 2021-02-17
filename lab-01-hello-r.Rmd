@@ -32,3 +32,20 @@ summary(datasaurus_dozen)
 ```{r}
 view(datasaurus_dozen)
 ```
+
+```{r}
+?iris
+```
+
+```{r}
+datasaurus_dozen
+```
+
+```{r}
+view(datasaurus_dozen)
+```
+
+```{r}
+datasaurus_dozen %>% count(dataset) %>% print(13)
+```
+
